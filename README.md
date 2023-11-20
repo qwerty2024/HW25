@@ -18,6 +18,7 @@
    Решение: установить - sudo apt-get install libmysqlclient-dev
 2. Ошибка подключения к базе данных.
    Решение: Настроить текущего пользователя для подключения:
+   
       sudo mysql -u root # I had to use "sudo" since it was a new installation
       
       mysql> USE mysql;
